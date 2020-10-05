@@ -459,7 +459,7 @@
 					$this.find('select')
 						.val($('option:first').val());
 
-					$this.find('input,textarea')
+					$this.find('input,')
 						.each(function() {
 
 							var i = $(this),
